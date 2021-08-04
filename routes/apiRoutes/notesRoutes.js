@@ -30,7 +30,6 @@ router.post('/notes', (req, res) => {
   });
 });
 
-// removes notes by id
 router.delete('/notes/:id', (req, res) => {
   const readFileAsync = util.promisify(fs.readFile);
   readFileAsync(path.join(__dirname, '../../data/notes.json')).then((data) => {
