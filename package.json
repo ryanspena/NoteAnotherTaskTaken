@@ -12,12 +12,14 @@
     "url": "git+https://github.com/ryanspena/NoteAnotherTaskTaken.git"
   },
   "author": "ryanspena",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ryanspena/NoteAnotherTaskTaken/issues"
   },
   "homepage": "https://github.com/ryanspena/NoteAnotherTaskTaken#readme",
   "dependencies": {
-    "jshint": "^2.13.0"
+    "express": "^4.17.1",
+    "jshint": "^2.13.0",
+    "nodemon": "^2.0.12"
   }
 }
