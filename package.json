@@ -1,6 +1,6 @@
 {
-  "name": "note-not-me",
-  "version": "1.0.0",
+  "name": "noteanother",
+  "version": "1.1.0",
   "description": "Note Taker",
   "main": "server.js",
   "scripts": {
@@ -21,5 +21,6 @@
     "express": "^4.17.1",
     "jshint": "^2.13.0",
     "nodemon": "^2.0.12"
-  }
+  },
+  "devDependencies": {}
 }
